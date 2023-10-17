@@ -247,7 +247,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -416,8 +416,8 @@ body.offcanvas {
   position: relative; }
 
 .colorlib-heading {
-  font-size: 18px;
-  margin-bottom: 4em;
+  font-size: 22px;
+  margin-bottom: 2em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
