@@ -39,7 +39,7 @@
 	// JavaScript Lambda trigger to display + increase view count 
 	const counterNum = document.querySelector(".counter-number");
 	async function updateCounter() {
-		let response = await fetch("https://xf2bddy7jkrbvi6ddks4ypilla0bpmvb.lambda-url.us-west-2.on.aws/");
+		let response = await fetch("https://sgigwabetpcxajhbk3hglxur3m0idyta.lambda-url.us-west-2.on.aws/");
 		let data = await response.json();
 		counterNum.innerHTML = ` Views: ${data}`;
 	}
