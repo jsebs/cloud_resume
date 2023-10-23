@@ -6,7 +6,7 @@ This is the end result of my take on the [Cloud Resume Challenge](https://cloudr
 
 ## Architecture
 
-img
+![project architecture](https://github.com/jsebs/cloud_resume/blob/main/website/images/cloud_res_arch.jpg)
 
 * The front end of the page is written in HTML/CSS (obviously) along with some JavaScript/jQuery to add functionality/animations, and is continuously deployed to an S3 bucket and served by the CloudFront CDN. 
 
